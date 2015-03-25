@@ -1,0 +1,7 @@
+myenv
+__pycache__
+*.pyc
+staticfiles
+local_settings.py
+db.sqlite3
+*~
