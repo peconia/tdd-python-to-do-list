@@ -71,6 +71,6 @@ class ItemModelTest(TestCase):
         response = home_page(request)
 
         self.assertIn('item 1', response.content.decode())
-        self.assertIn('item2', response.content.decode())
+        self.assertIn('item 2', response.content.decode())
 
 
